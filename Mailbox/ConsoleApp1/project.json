@@ -1,20 +1,14 @@
-{
+﻿{
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true
   },
 
   "dependencies": {
-    "NETStandard.Library": "1.6.0",
-    "Mailbox.Business": "1.0.0-*",
-    "Mailbox.Configuration": "1.0.0-*",
-    "Mailbox.Entity": "1.0.0-*",
-    "MailKit": "1.4.2.1",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.0"
-    },
-    "System.Text.Encoding.CodePages": "4.0.1"
+    }
   },
 
   "frameworks": {

@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MailboxWeb", "MailboxWeb\MailboxWeb.xproj", "{10B440B8-4669-420E-BF16-F472BE6C287F}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MailboxService", "MailboxService\MailboxService.xproj", "{A8CFE628-7402-4619-9E7E-79AFE88F0968}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MailboxService.Test", "MailboxService\MailboxService.Test.xproj", "{A8CFE628-7402-4619-9E7E-79AFE88F0968}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{1B2983AC-E069-445A-A2EB-CEAD360A965D}"
 	ProjectSection(SolutionItems) = preProject
@@ -21,6 +21,10 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mailbox.Entity", "Mailbox.Entity\Mailbox.Entity.xproj", "{D94ED440-A87B-47CF-816D-9C5FEECA2816}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MongoDB.QueryHelper", "MongoDB.QueryHelper\MongoDB.QueryHelper.xproj", "{8D0BDBFF-DC68-433C-AC34-DA98B58762F5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mailbox.Configuration", "Mailbox.Configuration\Mailbox.Configuration.xproj", "{F2953D9E-A336-4B2D-84C6-7C046EEBF727}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mailbox.Service", "Mailbox.Service\Mailbox.Service.xproj", "{CE8DCD31-C783-4ABC-A700-DFF3532DCD18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +56,14 @@ Global
 		{8D0BDBFF-DC68-433C-AC34-DA98B58762F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D0BDBFF-DC68-433C-AC34-DA98B58762F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D0BDBFF-DC68-433C-AC34-DA98B58762F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2953D9E-A336-4B2D-84C6-7C046EEBF727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2953D9E-A336-4B2D-84C6-7C046EEBF727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2953D9E-A336-4B2D-84C6-7C046EEBF727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2953D9E-A336-4B2D-84C6-7C046EEBF727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8DCD31-C783-4ABC-A700-DFF3532DCD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8DCD31-C783-4ABC-A700-DFF3532DCD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8DCD31-C783-4ABC-A700-DFF3532DCD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8DCD31-C783-4ABC-A700-DFF3532DCD18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using MailKit;
 using MailKit.Net.Imap;
 using MailKit.Net.Pop3;
@@ -11,7 +8,7 @@ using MailKit.Net.Smtp;
 using MailKit.Search;
 using MimeKit;
 
-namespace MailboxService
+namespace MailboxService.Test
 {
     public class Program
     {
@@ -22,7 +19,8 @@ namespace MailboxService
             //注册EncodingProvider实现对中文编码的支持
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
         
-
+            return;
+            
             //SendMail();
             var timer = new Timer(timerCallback, null, 2000, Timeout.Infinite);
 
