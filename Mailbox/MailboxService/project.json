@@ -5,6 +5,8 @@
   },
 
   "dependencies": {
+    "Mailbox.Business": "1.0.0-*",
+    "Mailbox.Entity": "1.0.0-*",
     "MailKit": "1.4.2.1",
     "Microsoft.NETCore.App": {
       "type": "platform",

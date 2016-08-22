@@ -2,8 +2,9 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "Mailbox.Dal": "1.0.0-*",
-    "Mailbox.Entity": "1.0.0-*",
+    "MongoDB.Bson": "2.3.0-beta1",
+    "MongoDB.Driver": "2.3.0-beta1",
+    "MongoDB.Driver.Core": "2.3.0-beta1",
     "NETStandard.Library": "1.6.0"
   },
 
