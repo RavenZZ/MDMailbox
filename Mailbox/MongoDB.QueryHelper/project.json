@@ -2,11 +2,10 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "Mailbox.Entity": "1.0.0-*",
+    "mongocsharpdriver": "2.3.0-beta1",
     "MongoDB.Bson": "2.3.0-beta1",
     "MongoDB.Driver": "2.3.0-beta1",
     "MongoDB.Driver.Core": "2.3.0-beta1",
-    "MongoDB.QueryHelper": "1.0.0-*",
     "NETStandard.Library": "1.6.0"
   },
 
