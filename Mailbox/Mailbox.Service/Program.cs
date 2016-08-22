@@ -9,10 +9,13 @@ namespace Mailbox.Service
 {
     public class Program
     {
+
         public static void Main(string[] args)
         {
-            var a = new Mailbox.Configuration.Configuration();
-            a.getConfig();
+
+            var a = Configuration.Configuration.Instance.MongoDB.Uri;
+            Console.WriteLine(a);
+            Console.ReadKey();
         }
     }
 }

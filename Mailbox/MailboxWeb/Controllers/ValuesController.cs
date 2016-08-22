@@ -11,9 +11,10 @@ namespace MailboxWeb.Controllers
     {
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+            return Mailbox.Configuration.Configuration.Instance.MongoDB.Uri;
+        //    return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5

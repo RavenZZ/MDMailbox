@@ -5,6 +5,8 @@
   },
 
   "dependencies": {
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
     "Mailbox.Business": "1.0.0-*",
     "Mailbox.Configuration": "1.0.0-*",
     "Mailbox.Entity": "1.0.0-*",
@@ -16,7 +18,7 @@
 
   "publishOptions": {
     "include": [
-      "appSettings.json"
+      "appsettings.json"
     ]
   },
   "frameworks": {
