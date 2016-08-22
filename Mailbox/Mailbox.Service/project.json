@@ -14,6 +14,11 @@
     }
   },
 
+  "publishOptions": {
+    "include": [
+      "appSettings.json"
+    ]
+  },
   "frameworks": {
     "netcoreapp1.0": {
       "imports": "dnxcore50"
