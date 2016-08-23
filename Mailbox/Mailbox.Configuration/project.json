@@ -3,8 +3,8 @@
 
   "dependencies": {
     "NETStandard.Library": "1.6.0",
-    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc2-final",
-    "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0-rc2-final",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
     "System.IO.FileSystem": "4.0.1",
     "Microsoft.Extensions.Configuration.Binder": "1.0.0"
   },

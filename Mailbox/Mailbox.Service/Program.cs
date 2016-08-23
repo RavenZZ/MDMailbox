@@ -27,7 +27,7 @@ namespace Mailbox.Service
                 Mail = "zhuyingjunjun@foxmail.com",
                 Port = 993,
                 Server = "imap.qq.com",
-         
+    
                 Type = MailBindingType.Imap
             };
 
@@ -65,7 +65,7 @@ namespace Mailbox.Service
                     Console.WriteLine("Has Notice");
                 }
 
-                Console.WriteLine(Environment.NewLine);
+        
             }
             
 
