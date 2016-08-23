@@ -20,6 +20,7 @@
     aid: "AccountId",
     mail: "Email Address",
     type: "IMAP | POP3 | SMTP",
+    token: "password",
     ssl: "boolean",
     server: "imap.qq.com | pop.qq.com | smtp.qq.com",
     port: "995",

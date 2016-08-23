@@ -13,7 +13,8 @@
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.0"
-    }
+    },
+    "Mailbox.Dal": "1.0.0-*"
   },
 
   "publishOptions": {

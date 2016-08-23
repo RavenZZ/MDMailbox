@@ -34,8 +34,7 @@ namespace Mailbox.Configuration
             internal static readonly Configuration instance = new Configuration();
         } 
         #endregion
-
-        public string test { get; set; }
+        
 
         public MongoConfig MongoDB { get; set; }
 
@@ -45,6 +44,8 @@ namespace Mailbox.Configuration
     public class MongoConfig
     {
         public string Uri { get; set; }
+
+        public string DbName { get; set; }
     }
 
 

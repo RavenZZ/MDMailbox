@@ -22,6 +22,14 @@ namespace Mailbox.Entity
             set { accountId = value; }
         }
 
+        private string token;
+
+        [BsonElement("token")]
+        public string Token
+        {
+            get { return token; }
+            set { token = value; }
+        }
 
         private string mail;
         [BsonElement("mail")]

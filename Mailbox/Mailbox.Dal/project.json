@@ -2,6 +2,7 @@
   "version": "1.0.0-*",
 
   "dependencies": {
+    "Mailbox.Configuration": "1.0.0-*",
     "Mailbox.Entity": "1.0.0-*",
     "MongoDB.Bson": "2.3.0-beta1",
     "MongoDB.Driver": "2.3.0-beta1",
