@@ -10,17 +10,17 @@ using MongoDB.Driver.Linq;
 
 namespace Mailbox.Dal
 {
-    public class BindingMongoContext : MongoDbDataContext
+    public class MailMongoContext : MongoDbDataContext
     {
-        public BindingMongoContext()
+        public MailMongoContext()
             : base(Configuration.Configuration.Instance.MongoDB.DbName, Configuration.Configuration.Instance.MongoDB.Uri
                 )
         {
         }
 
-        private static  readonly  Lazy<BindingMongoContext>  lazy = new Lazy<BindingMongoContext>(()=>new BindingMongoContext());
+        private static  readonly  Lazy<MailMongoContext>  lazy = new Lazy<MailMongoContext>(()=>new MailMongoContext());
 
-        public static BindingMongoContext Instance
+        public static MailMongoContext Instance
         {
             get { return lazy.Value; }
         }
@@ -37,6 +37,15 @@ namespace Mailbox.Dal
         }
 
 
+        public MongoCollection<Notification> NotificationCollection
+        {
+            get { return this.GetMongoCollection<Notification>(); }
+        }
+
+        public IQueryable<Notification> Notifications
+        {
+            get { return this.NotificationCollection.AsQueryable(); }
+        }
 
 
     }
