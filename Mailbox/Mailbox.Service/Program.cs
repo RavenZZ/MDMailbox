@@ -104,14 +104,17 @@ namespace Mailbox.Service
 
         private static void SendPush(string token, string accountId, string message)
         {
-            var json = "{\"access_token\":\"a8b86f3087dd4f52a8c60b191a4ac3d9\",\"account_id\":\""+ accountId + "\",\"message\":\""+ message + "\"}";
-
-            HttpContent content = new StringContent(json);
+            var dic = new Dictionary<string, string>();
+            dic.Add("access_token", "a8b86f3087dd4f52a8c60b191a4ac3d9");
+            dic.Add("account_id", accountId);
+            dic.Add("message",message);
+            HttpContent content = new FormUrlEncodedContent(dic);
             HttpClient client = new HttpClient();
             var uri =
-                "https://api.mingdao.com/v1/message/Send_Inbox_System_Message?access_token=a8b86f3087dd4f52a8c60b191a4ac3d9&account_id=" +
-                accountId + "&message=" + message;
+                "https://api.mingdao.com/v1/message/Send_Inbox_System_Message";
+            
             var task = client.PostAsync(uri, content);
+
             var result = task.GetAwaiter().GetResult();
 
         }
